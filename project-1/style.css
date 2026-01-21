@@ -12,5 +12,35 @@ nav{
     padding: 30px 80px;
     display: flex;
     justify-content: flex-end;
-    
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.hero{
+    margin: 30px 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text{
+    max-width: 54%;
+}
+.hero-text h1{
+    font-size: 56px;
+}
+.hero-text h1 span{
+    display: block;
+}
+.hero-text p{
+    font-size: 22px;
+}
+.hero-img{
+    max-width: 40%;
+}
+.hero-img img{
+    object-fit: cover;
+    width: 100%;
 }
