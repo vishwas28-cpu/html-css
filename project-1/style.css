@@ -2,10 +2,11 @@
 margin:0%;
 padding:0%;
 box-sizing: border-box;
+font-family: sans-serif;
 }
 html,body{
 width: 100%;
-height: 100%;
+min-height: 100vh;
 }
 nav{
     width: 100%;
@@ -17,6 +18,8 @@ nav{
 a{
     text-decoration: none;
     color: #000;
+    font-weight: 500;
+
 }
 .hero{
     margin: 30px 80px;
@@ -26,7 +29,7 @@ a{
     justify-content: space-between;
 }
 .hero-text{
-    max-width: 54%;
+    max-width: 55%;
 }
 .hero-text h1{
     font-size: 56px;
@@ -35,16 +38,19 @@ a{
     display: block;
 }
 .hero-text p{
-    font-size: 22px;
+    font-size: 21px;
 }
 .buttons{
     margin-top: 30px;
     display: flex;
     gap: 20px;
+    font-size: 22px;
+    font-weight: 600;
 }
 .btn{
     padding: 14px 28px;
     border: 2px solid #000;
+    cursor: pointer;
 }
 .solid {
     background-color: black;
@@ -57,4 +63,6 @@ a{
 .hero-img img{
     object-fit: cover;
     width: 100%;
+    border-radius: 0px 0px 0px 120px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.3);
 }
