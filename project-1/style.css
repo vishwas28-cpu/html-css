@@ -66,3 +66,19 @@ a{
     border-radius: 0px 0px 0px 120px;
     box-shadow: 0px 20px 40px rgba(0,0,0,0.3);
 }
+@media (max-width:900px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text{
+        max-width: 100%;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .hero-img{
+        margin-top: 40px;
+    }
+    
+}
